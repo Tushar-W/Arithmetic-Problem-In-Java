@@ -24,4 +24,11 @@ public class ArithmeticOperationTest {
         int multiplication = arithmeticOperation.multiplicationOfNumber(3,2);
         Assert.assertEquals(6,multiplication);
     }
+
+    @Test
+    public void givenTwoInteger_WhenDivide_ShouldReturnDivision() {
+        ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
+        int division = arithmeticOperation.divisionOfNumber(5,5);
+        Assert.assertEquals(1,division);
+    }
 }
