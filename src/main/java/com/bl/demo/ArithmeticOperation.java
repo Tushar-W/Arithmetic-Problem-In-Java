@@ -12,4 +12,8 @@ public class ArithmeticOperation {
     public int multiplicationOfNumber(int firstNum, int secondNum) {
         return firstNum * secondNum;
     }
+
+    public int divisionOfNumber(int firstNum, int secondNum) {
+        return firstNum / secondNum;
+    }
 }
