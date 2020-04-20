@@ -31,4 +31,11 @@ public class ArithmeticOperationTest {
         int division = arithmeticOperation.divisionOfNumber(5,5);
         Assert.assertEquals(1,division);
     }
+
+    @Test
+    public void givenTwoInteger_WhenMod_ShouldReturnModulus() {
+        ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
+        int modulus = arithmeticOperation.modulusOfNumber(5,5);
+        Assert.assertEquals(0,modulus);
+    }
 }
