@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.demo.ArithmeticOperationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-20T05:30:50" hostname="DESKTOP-2TJPHRI" time="0.004">
+  <properties/>
+  <testcase name="givenTwoInteger_WhenAdd_ShouldReturnAddition" classname="com.bl.demo.ArithmeticOperationTest" time="0.004"/>
+  <testcase name="givenTwoInteger_WhenSubtract_ShouldReturnSubtraction" classname="com.bl.demo.ArithmeticOperationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
