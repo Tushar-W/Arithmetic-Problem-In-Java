@@ -8,4 +8,8 @@ public class ArithmeticOperation {
     public int subtractionOfNumber(int firstNum, int secondNum) {
         return firstNum - secondNum;
     }
+
+    public int multiplicationOfNumber(int firstNum, int secondNum) {
+        return firstNum * secondNum;
+    }
 }
