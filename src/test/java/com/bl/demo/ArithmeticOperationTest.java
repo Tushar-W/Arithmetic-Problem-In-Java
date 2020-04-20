@@ -17,4 +17,11 @@ public class ArithmeticOperationTest {
         int subtraction = arithmeticOperation.subtractionOfNumber(3,2);
         Assert.assertEquals(1,subtraction);
     }
+
+    @Test
+    public void givenTwoInteger_WhenMultiply_ShouldReturnMultiplication() {
+        ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
+        int multiplication = arithmeticOperation.multiplicationOfNumber(3,2);
+        Assert.assertEquals(6,multiplication);
+    }
 }
