@@ -16,4 +16,8 @@ public class ArithmeticOperation {
     public int divisionOfNumber(int firstNum, int secondNum) {
         return firstNum / secondNum;
     }
+
+    public int modulusOfNumber(int firstNum, int secondNum) {
+        return firstNum % secondNum;
+    }
 }
